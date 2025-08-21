@@ -61,9 +61,10 @@ Il permet de créer, modifier, rechercher, filtrer, supprimer et exporter des bo
 ## Structure du projet
 
 /mon_projet/
+
 │
 ├── main.py # Script principal pour lancer l’application
-├── db.py # Gestion de la base de données SQLite (création, requêtes)
+|── db.py # Gestion de la base de données SQLite (création, requêtes)
 ├── gui/search_window.py # Fenêtre de recherche et affichage des bons
 ├── gui/edit_window.py # Fenêtre d’édition/modification d’un bon
 ├── gui/main_window.py # Fenêtre du menu
@@ -102,3 +103,4 @@ Il permet de créer, modifier, rechercher, filtrer, supprimer et exporter des bo
 ## Licence
 
 Ce projet est libre d’utilisation et modification au sein de la ZP Namur.
+
